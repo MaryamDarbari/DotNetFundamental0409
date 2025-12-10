@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your first name");
+            Console.WriteLine("What is your First Name");
             String Name = Console.ReadLine();
-            Console.WriteLine("What is your last name");
+            Console.WriteLine("What is your Last Name");
             String FamilyName=Console.ReadLine();
             Console.WriteLine("How old are you?");
                 String Age = Console.ReadLine();
