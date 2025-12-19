@@ -16,15 +16,21 @@
             String PhoneNumberStr = Console.ReadLine();
             long PhoneNumber = long.Parse(PhoneNumberStr);
             
-            if ( PhoneNumber <=9999999999)
-                {
-                Console.WriteLine("Your phone number is invalid");
+            if ( PhoneNumberStr.Length==11 )
+                {             
+                
+                
             }
             else
-    {//Ya mishod Str Negahesh dash va az Length==10 estefade kard.
-                       
-    }
-        Console.WriteLine("What is your card number?");
+            {
+                Console.WriteLine("Your phone number is invalid");
+                return;
+            }
+
+
+
+
+                Console.WriteLine("What is your card number?");
             String CardNumberStr = Console.ReadLine();
             int CardNumber = int.Parse(CardNumberStr);
             Console.WriteLine("What is your national identification number?");
