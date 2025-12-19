@@ -14,7 +14,7 @@
             int Age = int.Parse(AgeStr);
             Console.WriteLine("What is your phone number?");
             String PhoneNumberStr = Console.ReadLine();
-            int PhoneNumkber = int.Parse(PhoneNumberStr);
+            int PhoneNumber = int.Parse(PhoneNumberStr);
             Console.WriteLine("What is your card number?");
             String CardNumberStr = Console.ReadLine();
             int CardNumber = int.Parse(CardNumberStr);
