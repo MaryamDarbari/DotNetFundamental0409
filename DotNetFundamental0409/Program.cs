@@ -21,7 +21,7 @@
             Console.WriteLine("What is your national identification number?");
             String IDStr = Console.ReadLine();
             int ID = int.Parse(IDStr);
-            Console.WriteLine("Thanks " + FullName);
+            Console.WriteLine("Thanks" + " " + FullName);
             
 
         }
