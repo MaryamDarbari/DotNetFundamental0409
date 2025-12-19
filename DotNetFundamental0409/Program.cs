@@ -14,7 +14,7 @@
             int Age = int.Parse(AgeStr);
             Console.WriteLine("What is your phone number?");
             String PhoneNumberStr = Console.ReadLine();
-            long PhoneNumber = long.Parse(PhoneNumberStr);
+            long PhoneNumber = long.Parse(PhoneNumberStr);//In Estefade ei nadare
             
             if ( PhoneNumberStr.Length==11 )
                 {             
