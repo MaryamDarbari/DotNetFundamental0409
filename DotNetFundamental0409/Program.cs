@@ -14,35 +14,25 @@ namespace DotNetFundamental0409
         {
             while (true)
             {
-                Console.WriteLine("What is your First Name");
-                String Name = Console.ReadLine();
-                if (HamashHarfBashe(Name) && NullNabashe(Name))
+                Console.WriteLine("Enter your Full Name seprated by commas");
+                string input = Console.ReadLine();
+                string[] FullName = input.Split(",");
+
+                if (HamashHarfBashe(input) && NullNabashe(input))
                 {
+                    Console.WriteLine("Welcom "+FullName[0]);
                     break;
                 }
                 else
                 {
                     Console.WriteLine("Please enter a valid name");
                 }
+     
             }
-
+            
             MagentaSubmitted();
 
-            while (true)
-            {
-                Console.WriteLine("What is your family name?");
-                String FamilyName = Console.ReadLine();
-                if (HamashHarfBashe(FamilyName) && NullNabashe(FamilyName))
-                {
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("Please enter a valid Family Name.");
-                }
-
-            }
-            MagentaSubmitted();
+           
 
 
             while (true)
