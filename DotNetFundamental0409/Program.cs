@@ -20,7 +20,7 @@ namespace DotNetFundamental0409
 
                 if (HamashHarfBashe(input) && NullNabashe(input))
                 {
-                    Console.WriteLine("Welcom "+FullName[0]);
+                    Console.WriteLine("Welcome "+FullName[0]);
                     break;
                 }
                 else
